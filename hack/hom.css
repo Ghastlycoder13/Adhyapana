@@ -1,0 +1,205 @@
+.header
+{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow:  5px 5px 30px black;
+    padding-top: 50px;
+
+}
+
+.logo
+{
+     
+}
+
+img
+{
+    width: 60%;
+    height: 60%;
+    padding-top: 20px;
+}
+.welcome
+{
+  
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    min-width: 300px;
+    color:dimgray;
+    text-decoration: underline;
+}
+
+#chartimage
+{
+    width: 100%;
+    height: 30%;
+    padding-top: 0px;
+}
+
+
+.menu a
+{
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top:50px; 
+    font-size: 25px;
+    color:black;   
+}
+.menu a:hover{
+    background-color: aqua;
+}
+
+.mainbody
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: flex-start;
+}
+
+.message
+{
+    width: 20%;
+    height: 95%;
+    box-shadow:  5px 5px 10px darkgray;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.welcomeimage
+{
+    width: 45%;
+    height: 100%;
+    box-shadow:  5px 5px 10px darkgray;
+}
+
+#welcomeimg
+{
+    width: 100%;
+    height: 100%;
+}
+
+.sidebanner
+{
+    width: 30%;
+    background-color:dimgray;
+    margin-top: 20px;
+    height: 93%;
+    box-shadow:  5px 5px 10px darkgray;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: justify;
+    padding-top: 20px;
+
+}
+
+.coursecards
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 400px;
+    
+}
+
+.course1
+{
+    height: 100%;
+    width: 300px;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.course2
+{
+    height: 100%;
+    width: 300px;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.course3
+{
+    height: 100%;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.course4
+{
+    height: 100%;
+    width: 300px;
+    border: 2px solid black;
+}
+.course5
+{
+    height: 100%;
+    width: 300px;
+    border: 2px solid black;
+}
+.course6
+{
+    height: 100%;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.courseimage
+{
+    width: 30%;
+    height: 90%;
+    margin-top: 0;
+}
+
+.courseimage
+{
+    width: 100%;
+    height: 80%;
+    padding-top: 0px;
+    border-bottom: 10px solid black;
+}
+
+.coursetitle
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+}
+
+.contact
+{
+    background-color:dimgray;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 20px;
+
+}
+
+.address
+{
+    width: 20%;
+    font-size: x-large;
+    margin: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.vitimage
+{
+    width: 80%;
+}
+#vitimage
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}

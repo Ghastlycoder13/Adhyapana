@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="register.css">
+  <script>
+    function redirectToLoginPage() {
+      // Replace "login.html" with the actual path to your login page
+      window.location.href = "login.html";
+    }
+  </script>
+</head>
+<body>
+
+  <div class="register-container">
+    <h2>Register</h2>
+    <form action="connect.php" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="new-password">New Password:</label>
+      <input type="password" id="new-password" name="new-password" required>
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+
+      <button type="submit" onclick="redirectToLoginPage()">Register</button>
+    </form>
+
+    <div class="additional-links">
+      <a href="login.html">Already have an account? Login</a>
+    </div>
+  </div>
+
+</body>
+</html>

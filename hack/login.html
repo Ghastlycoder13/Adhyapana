@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script>
+    function redirectToHomePage() {
+      // Replace "home.html" with the actual path to your home page
+      window.location.href = "dashboard.html";
+    }
+  </script>
+  <link rel="stylesheet" href="log.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <form >
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="button" onclick="func()">Login</button>
+    </form>
+
+    <div class="additional-links">
+      <a href="forgot_password.html">Forgot Password?</a>
+      <a href="register.html">Register now</a>
+    </div>
+  </div>
+  <script>
+    function func(){
+    var email=document.getElementById("username").value;
+    var pass=document.getElementById("password").value;
+    if(email=="123@gmail.com" && pass=='12345'){
+        alert("Successfully login")
+        window.location.assign("dashboard.html")
+    }
+    else{
+        alert("Invalid")
+    }
+    }
+  </script>
+
+</body>
+</html>
